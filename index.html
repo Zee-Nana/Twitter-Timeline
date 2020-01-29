@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter Port</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="flex-container">
+       <div id="left">
+           <img src="logo.png" alt="" id="logo">
+           <div class="over">
+           <ul>
+               <li><a href="#" class="active"><i class="fas fa-home" id="fas"></i>Home</a></li>
+               <li><i class="fas fa-hashtag"></i>Explore</li>
+               <li><i class="far fa-bell"></i>Notification</li>
+               <li><i class="far fa-envelope"></i>Messages</li>
+               <li><i class="far fa-bookmark"></i>Bookmarks</li>
+               <li><i class="far fa-list-alt"></i>Lists</li>
+               <li><i class="fas fa-user-circle"></i>Profile</li>
+               <li><i class="far fa-comment-dots"></i>More</li>
+           </ul>
+        </div>
+           <button id="btn">Tweet</button>
+       </div>
+       <!-- center part -->
+       <div id="center">
+           <div id="up">
+               <div id="nav">
+               <h3 class="hme"><b>Home</b> <i id="star" class="far fa-star"></i></h3>
+               <hr style="clear: both;">
+            </div>
+               <div class="happen">
+                   <img src="nana.jpg" alt="" style="width: 50px; height: 50px; border-radius: 50%; float: left;margin-left: 20px;">
+                    <textarea name="text" id="text" cols="30" rows="1" placeholder="What's happening"></textarea>
+                </div>
+                <div class="lricon">
+                    <div id="licon">
+                    <i class="far fa-image"></i>
+                    <i class="fas fa-poll-h" style="margin-left:20px;"></i>
+                    <i class="far fa-smile" style="margin-left:20px;"></i>
+                </div>
+                    <div id="ricon">
+                    <i class="far fa-circle" style="color: lavender;"></i>
+                    <i class="fas fa-plus-circle" style="font-size: 30px;color: rgb(73, 179, 240);margin-bottom: 30px;"></i>
+                    <button id="btnup">Tweet</button>
+                    </div>
+                </div>
+            </div>
+            <!-- center part scroll down -->
+           <div id="down">
+               <div id="pic1">
+                   <img src="grace.jpg" alt="" id="dpic1">
+                   <div id="dname1">
+                   <p style="font-size: 16px; font-family: arial;"><span style="font-size: 19px;"><b>Grace Ejegwa</b></span> @graceeejegwa .6h</p>
+                   <p style="font-size: 14px; font-family: arial;">One of my mentees<span style="color: rgb(73, 179, 240);font-size: 16px; font-family: arial;"> @TIIDELab</span s> asked why we're currently using VS code as<br> our code editor. My reply...</p>
+                    <div id="likes">
+                    <i class="far fa-comment"> 24</i>
+                    <i class="fas fa-retweet"style="margin-left: 160px;"> 5</i>
+                    <i class="far fa-heart" style="margin-left:160px;color: red"> 98</i>
+                    </div>
+                </div>
+                <hr style="clear:both">
+               </div>
+               <div id="pic1">
+                <img src="grace.jpg" alt="" id="dpic1">
+                <div id="dname2">
+                <p style="font-size: 16px; font-family: arial;"><span style="font-size: 19px;"><b>Grace Ejegwa</b></span> @graceeejegwa .6h</p>
+                <p style="font-size: 16px; font-family: arial;">what to look out for when picking editors:<br>
+                    -strong support for the latest javaScript features<br>
+                    -Autocomplete<br>
+                    -parses ES6<br>
+                    -reports unused imports, typos<br>
+                    -provide Automated refractoring<br>
+                    and finally having a built-in terminal.
+                </p>
+             </div>
+             <div id="likes" style="clear: both;">
+                <i class="far fa-comment" style="margin-left: 65px;"> 76</i>
+                <i class="fas fa-retweet"style="margin-left: 160px;"> 27</i>
+                <i class="far fa-heart" style="margin-left:160px;color: red"> 125</i>
+                </div>
+             <hr style="clear:both">
+            </div>
+            <div id="pic1">
+                <img src="rzeelah.png" alt="" id="dpic1">
+                <div id="dname1">
+                <p style="font-size: 16px; font-family: arial; margin-left: 7px;"><span style="font-size: 19px;"><b>Zainab Abdulazeez</b></span> @Rzeelahs  .8h</p>
+                <p style="font-size: 16px; font-family: arial; margin-left: 7px">Couldn't stop dancing when i saw this video;<br> its not easy to be priased by a musician.</p>
+                <div id="vid">
+                    <video src="zee.mp4" style="width: 500px; height:300px; border-radius: 40px;" controls></video>
+                </div>
+                <div id="likes">
+                    <i class="far fa-comment"> 56</i>
+                    <i class="fas fa-retweet"style="margin-left: 160px;"> 15</i>
+                    <i class="far fa-heart" style="margin-left:160px; color: red;"> 235</i>
+                    </div>
+                </div>
+             <hr style="clear:both">
+            </div>
+            <div id="pic1">
+                <img src="baddo.png" alt="" id="dpic1">
+                <div id="dname3">
+                <p style="font-size: 16px; font-family: arial;"><span style="font-size: 19px;"><b>Olamide Adedeji</b></span> @baddosneh .9h</p>
+                <p style="font-size: 14px; font-family: arial;">One of my memories<span style="color: rgb(73, 179, 240);font-size: 16px; font-family: arial;"> @starboy</span> lord mercy is what we keep asking for.</p>
+                    <img src="throw.jpg" alt="" style="width: 300px;height: 250px; margin-left: 60px; border-radius: 25px;">
+             </div>
+             <div id="likes" style="clear: both; margin-left:65px;">
+                <i class="far fa-comment"> 567</i>
+                <i class="fas fa-retweet"style="margin-left: 145px;"> 56</i>
+                <i class="far fa-heart" style="margin-left:145px;color: red"> 1.5k</i>
+                </div>
+             <hr style="clear:both">
+            </div>
+            <div id="pic1">
+                <img src="mufti.jpg" alt="" id="dpic1">
+                <div id="dname4">
+                <p style="font-size: 16px; font-family: arial;"><span style="font-size: 19px;"><b>Mufti Menk</b></span> @muftimenk .10h</p>
+                <p style="font-size: 14px; font-family: arial;">Don't compare your marriage to what you see
+                online.<br> There will always be people who post<br>
+                pictures making it look like they're having a
+                better time<br> than you and your spouse! Avoid 
+                the <br>temptation to make a comparison. Envy is<br>
+                dangerous even; so stay offline if you must!
+            </p>
+             </div>
+             <div id="likes" style="clear: both; margin-left:65px;">
+                <i class="far fa-comment"> 1.2k</i>
+                <i class="fas fa-retweet"style="margin-left: 140px;"> 250</i>
+                <i class="far fa-heart" style="margin-left:140px;color: red"> 2.1k</i>
+                </div>
+             <hr style="clear:both">
+            </div>
+            <div id="spin">
+                <i class="fas fa-spinner"></i>
+               </div>
+           </div>
+       </div>
+       <!-- right part -->
+       <div id="right">
+           <div id="seach">
+        <!-- <i class="fas fa-search"></i> -->
+        <input type="search" placeholder="Search Twitter" id="twit">
+    </div>
+           <div id="newbox">
+            <h3 style="padding: 10px 0px 2px 10px; font-size: 24px;"><b>Trends for you</b><i class="fas fa-cog" style="margin-left: 140px; color: rgb(73, 179, 240);"></i></h3>
+            <hr>
+            <div id="howver">
+            <div id="follow1">
+                <p id="followname1"><span style="color: rgb(98, 98, 98);">Trending in Nigeria</span> <br><b>#ASUU Strike</b><br><span style="color: rgb(98, 98, 98);">1,009 Tweets</span></p><i class="fas fa-angle-down" id="carlet"></i>
+            </div>
+            <hr style="clear: both;">
+        </div>
+            <div id="howver">
+<div id="follow1">
+    <!-- <img src="naira.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;"> -->
+    <p id="followname1"><span style="color: rgb(98, 98, 98);"> Trending in Nigeria</span> <br><b>#9ice</b><br><span style="color: rgb(98, 98, 98);">10.2k Tweets</span></p><i class="fas fa-angle-down" id="carlet"></i>
+<!-- <button id="fbtn1">Follow</button> -->
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <p id="followname1"><span style="color: rgb(98, 98, 98);">Sports. Trending</span><br><b>#KobeandGianna</b><br><span style="color: rgb(98, 98, 98);">50k Tweets</span></p><i class="fas fa-angle-down" id="carlet"></i>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <p id="followname1"><span style="color: rgb(98, 98, 98);">Trending in Nigeria</span> <br><b>#Maryam Sanda</b></p><i class="fas fa-angle-down" id="carlet"></i>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver1">
+<h3 style="margin: 15px 0px 0px 15px; color: rgb(73, 179, 240); font-size: 22px; ">Show more</h3>
+           </div>
+</div>
+<!-- who to follow -->
+           <div class="box">
+<h3 style="padding: 10px 0px 2px 10px;">Who to follow</h3>
+<hr>
+<div id="howver">
+<div id="follow1">
+    <img src="naira.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Naira Marley</b> <br>@Marlian</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <img src="burna.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Burna Boy#1</b> <br>@Burna</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <img src="img1.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Fahrida Sani</b> <br>@Nana_F</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <img src="img2.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Amama Saad</b> <br>@SHamama</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <img src="img3.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Aminah Soliu</b> <br>@OlamideS</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver">
+<div id="follow1">
+    <img src="neymar.jpg" alt="" id="fimg1" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 5px; float: left;">
+    <p id="followname1"><b>Naira Marley</b> <br>@Marlian</p>
+<button id="fbtn1">Follow</button>
+</div>
+<hr style="clear: both;">
+</div>
+<div id="howver1">
+<h3 style="margin: 15px 0px 0px 15px; color: rgb(73, 179, 240); font-size: 22px; ">Show more</h3>
+    </div>
+           </div>
+           <!-- footers -->
+    <div class="footer">
+        <ul>
+            <li>Terms</li>
+            <li>Privacy</li>
+            <li>policy</li>
+            <li>Cookies</li>
+            <li>Ads info</li>
+            <li>More</li>
+            <li>&copy;2020 Zainab, page.</li>
+        </ul>
+    </div>
+   </div>
+   <!-- ends here -->
+</div> 
+</body>
+</html>
